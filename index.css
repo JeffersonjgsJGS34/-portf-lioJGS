@@ -1,0 +1,102 @@
+
+
+
+body{
+    color:white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif ;  
+}
+ul{
+    display:flex;
+    justify-content:space-between ;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+   
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+
+header img{
+    height: 170px;
+    width: 160px;
+    border-radius:50%;
+    
+
+}
+
+.center{
+    text-align: center;
+}
+h1 {
+    color: rgb(131, 255, 127);
+}
+footer img{
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    max-width: 750px ;
+    
+}
+footer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+footer a {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+footer p {
+    margin-top: 2px;
+}
+.container {
+    margin: 0px;
+    padding: 10px;
+}
+nav a:hover{
+    color :#5BBE42;
+}
+div.curriculo{ 
+    height: 96vh;
+    width: 100vw;
+    position: relative;
+}
+.imagemcurriculo{ 
+    height: 1000px;
+    width: 800px;
+    display: block;
+    position: absolute;
+    bottom: -100px;
+    left: 600px;
+    }
+
+
+@media screen and (max-width: 798px){
+    header img{
+        height: 150px;
+        width: 140px;
+    }
+    footer img{
+        height:35px;
+        width: 35px;
+        max-width: 300px;
+        margin-top: 10px;
+    } 
+
+    footer a{
+        text-align: center;
+        margin: 8px;
+    }
+
+    footer p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+}
+     
